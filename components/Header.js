@@ -60,8 +60,8 @@ function Header() {
   <>
       <div className="relative navBtn">
       <a href="https://starcitizen.tools/" target="blank">
-
-      <BookOpenIcon className="navBtn rotate-45"/>
+      <span>StarWiki</span>
+      
       <div className="absolute -top-1 -right-2 text-xs w-5 h-5
        rounded-full flex items-center justify-center
       animate-pulse text-white">
@@ -71,7 +71,9 @@ function Header() {
 
       </div>
       <a href="https://www.erkul.games/live/calculator" target="blank">
-      <PlayIcon className="navBtn"/>
+      <span className="navBtn">Erkul</span>
+      
+
 
       </a>
       <PlusCircleIcon onClick={()=>setOpen(true)} className="navBtn"/>
