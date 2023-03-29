@@ -75,7 +75,7 @@ await deleteDoc(doc(db, 'posts',id,'likes',session.user.name));
     <div className="flex items-center p-5">
       <img src={userImg} className="rounded-full h-12 w-12 object-contain border p-1 mr-3" alt="" />
       <p className="flex-1 font-bold">{username}</p>
-      <DotsHorizontalIcon className="h-5"/>
+      {/*<DotsHorizontalIcon className="h-5"/>*/}
     </div>
     <img src={img} className="object-cover w-full" alt=""/>
 
@@ -92,10 +92,10 @@ await deleteDoc(doc(db, 'posts',id,'likes',session.user.name));
   )
 }
 
-  <ChatIcon className="btn"/>
-  <PaperAirplaneIcon className="btn"/>
+  {/*<ChatIcon className="btn"/>*/}
+  {/*<PaperAirplaneIcon className="btn"/>*/}
 </div>
-<BookmarkIcon className="btn"/>
+{/*<BookmarkIcon className="btn"/>*/}
     </div>
 )}
         <p className="p-5 truncate">
