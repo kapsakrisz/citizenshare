@@ -137,7 +137,7 @@ await deleteDoc(doc(db, 'posts',id,'likes',session.user.name));
         {session && (
 
 <form className="flex items-center p-4">
-<EmojiHappyIcon className="h-7"/>
+
 <input type="text" 
 value={comment}
 onChange={e=>setComment(e.target.value)}
